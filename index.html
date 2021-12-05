@@ -14,17 +14,19 @@
 </head>
 <body>
     <!-- Шапка -->
-    <header class="header">
-        <a href="index.html" class="main-page-link">Web<span class="main-page-link-logo">Studio</span></a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="nav-sections active">Студия</a></li>
-                <li><a href="portfolio.html" class="nav-sections">Портфолио</a></li>
-                <li><a href="#" class="nav-sections">Контакты</a></li>
-            </ul>  
-        </nav>
-        <a href="mailto:info@devstudio.com" class="main-mail-header">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="main-phone-header">+38 096 111 11 11</a>
+    <header class="header container">
+        <div class="header-div">
+            <a href="index.html" class="main-page-link">Web<span class="main-page-link-logo">Studio</span></a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-li"><a href="index.html" class="nav-sections active">Студия</a></li>
+                    <li class="nav-li"><a href="portfolio.html" class="nav-sections">Портфолио</a></li>
+                    <li class="nav-li"><a href="#" class="nav-sections">Контакты</a></li>
+                </ul>  
+            </nav>
+            <a href="mailto:info@devstudio.com" class="main-mail-header">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="main-phone-header">+38 096 111 11 11</a>
+        </div>
     </header>
 
     <!-- Основная часть -->
@@ -32,70 +34,68 @@
     <main>
 
         <!-- Реклама с кнопкой -->
-        <section class="main-page-face">
+        <section class="main-page-face container">
             <h1 class="main-page-face-text">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="main-page-face-button">Заказать услугу</button>
         </section>
 
         <!-- Характеристика -->
-        <section>
-            <ul>
-                <li>
+        <section class="container">
+            <ul class="specification-list">
+                <li class="specification-li">
                     <h3 class="main-page-specifications-title">Внимание к деталям</h3>
                     <p class="main-page-specifications-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="specification-li">
                     <h3 class="main-page-specifications-title">Пунктуальность</h3>
                     <p class="main-page-specifications-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="specification-li">
                     <h3 class="main-page-specifications-title">Планирование</h3>
                     <p class="main-page-specifications-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="specification-li">
                     <h3 class="main-page-specifications-title">Современные технологии</h3>
                     <p class="main-page-specifications-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
-        </section>
 
         <!-- Род занятия в картинках -->
-        <section>
             <h2 class="main-page-titles">Чем мы занимаемся</h2>
-            <ul>
-                <li>
+            <ul class="occupation-list">
+                <li class="occupation-li">
                     <img src="images/img1.jpg" alt="програмирование" width="370">
                 </li> 
-                <li>
+                <li class="occupation-li">
                     <img src="images/img2.jpg" alt="телефонирование" width="370">
                 </li>
-                <li>
+                <li class="occupation-li">
                     <img src="images/img3.jpg" alt="графинирование" width="370"> 
                 </li>
             </ul>               
         </section>
 
         <!-- Команда специалистов -->
-        <section class="main-page-team">
+        <section class="main-page-team container">
             <h2 class="main-page-titles">Наша команда</h2>
-            <ul>
+            <ul class="main-page-team-list">
                 <li class="main-page-team-teaser">
-                    <img src="images/team1.jpg" alt="мужчина" width="270" height="260">
+                    <img src="images/team1.jpg" alt="мужчина" width="270" height="260" class="team-image">
                     <h3 class="main-page-team-name">Игорь Демьяненко</h3>
                     <p class="main-page-team-position">Product Designer</p>
                 </li>
                 <li class="main-page-team-teaser">
-                    <img src="images/team2.jpg" alt="женщина" width="270" height="260">
+                    <img src="images/team2.jpg" alt="женщина" width="270" height="260" class="team-image">
                     <h3 class="main-page-team-name">Ольга Репина</h3>
                     <p class="main-page-team-position">Frontend Developer</p>
                 </li>
                 <li class="main-page-team-teaser">
-                    <img src="images/team3.jpg" alt="мужчина" width="270" height="260">
+                    <img src="images/team3.jpg" alt="мужчина" width="270" height="260" class="team-image">
                     <h3 class="main-page-team-name">Николай Тарасов</h3>
                     <p class="main-page-team-position">Marketing</p>
                 </li>
                 <li class="main-page-team-teaser">
-                    <img src="images/team4.jpg" alt="мужчина" width="270" height="260">
+                    <img src="images/team4.jpg" alt="мужчина" width="270" height="260" class="team-image">
                     <h3 class="main-page-team-name">Михаил Ермаков</h3>
                     <p class="main-page-team-position">UI Designer</p>
                 </li>
@@ -104,7 +104,7 @@
     </main>
 
     <!-- Подвал-->
-    <footer class="footer">
+    <footer class="footer container">
         <a href="index.html" class="main-page-link">Web<span class="main-page-link-logo">Studio</span></a>
         <address class="footer-address">г. Киев, пр-т Леси Украинки, 26
             <a href="mailto:info@devstudio.com" class="main-mail-footer">info@devstudio.com</a>

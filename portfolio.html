@@ -13,17 +13,19 @@
 </head>
 <body>
     <!-- Шапка -->
-    <header class="header">
-        <a href="index.html" class="main-page-link">Web<span class="main-page-link-logo">Studio</span></a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="nav-sections">Студия</a></li>
-                <li><a href="portfolio.html" class="nav-sections active">Портфолио</a></li>
-                <li><a href="#" class="nav-sections">Контакты</a></li>
-            </ul>  
-        </nav>
-        <a href="mailto:info@devstudio.com" class="main-mail-header">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="main-phone-header">+38 096 111 11 11</a>
+    <header class="header container">
+        <div class="header-div">
+            <a href="index.html" class="main-page-link">Web<span class="main-page-link-logo">Studio</span></a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-li"><a href="index.html" class="nav-sections">Студия</a></li>
+                    <li class="nav-li"><a href="portfolio.html" class="nav-sections active">Портфолио</a></li>
+                    <li class="nav-li"><a href="#" class="nav-sections">Контакты</a></li>
+                </ul>  
+            </nav>
+            <a href="mailto:info@devstudio.com" class="main-mail-header">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="main-phone-header">+38 096 111 11 11</a>
+        </div>
     </header>
 
     <!-- Основная часть -->
@@ -31,89 +33,115 @@
     <main>
 
         <!--Фильтры-->
-        <section>
-            <ul>
-                <li>
+        <section class="container">
+            <ul class="filters-list">
+                <li class="filter-li">
                     <button type="button" class="portfolio-categories-button">Все</button>
                 </li>
-                <li>
+                <li class="filter-li">
                     <button type="button" class="portfolio-categories-button">Веб-сайты</button>
                 </li>
-                <li>
+                <li class="filter-li">
                     <button type="button" class="portfolio-categories-button">Приложения</button>
                 </li>
-                <li>
+                <li class="filter-li">
                     <button type="button" class="portfolio-categories-button">Дизайн</button>
                 </li>
-                <li>
+                <li class="filter-li">
                     <button type="button" class="portfolio-categories-button">Маркетинг</button>
                 </li>
             </ul>  
 
             <!--Варианты для фильтра-->
         
-            <ul>
+            <ul class="portfolio-variants-list">
                 <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf1.jpg" alt="ноутбук" width="370">
-                        <h3 class="portfolio-variant-name">Технокряк</h3>
-                        <p class="portfolio-variant-type">Веб-сайт</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Технокряк</h3>
+                            <p class="portfolio-variant-type">Веб-сайт</p>
+                        </div>
                     </a>   
                 </li>
+
                 <li class="portfolio-variants">
                     <a href="">
                         <img src="images/portf2.jpg" alt="баскетболисты" width="370">
-                        <h3 class="portfolio-variant-name">Постер New Orlean vs Golden Star</h3>
-                        <p class="portfolio-variant-type">Дизайн</p>  
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Постер New Orlean vs Golden Star</h3>
+                            <p class="portfolio-variant-type">Дизайн</p> 
+                        </div>
                     </a>
                 </li>
-                <li>
+
+                <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf3.jpg" alt="морской ресторан" width="370">
-                        <h3 class="portfolio-variant-name">Ресторан Seafood</h3>
-                        <p class="portfolio-variant-type">Приложение</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Ресторан Seafood</h3>
+                            <p class="portfolio-variant-type">Приложение</p>
+                        </div>
                     </a> 
                 </li>
+
                 <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf4.jpg" alt="наушники" width="370">
-                        <h3 class="portfolio-variant-name">Проект Prime</h3>
-                        <p class="portfolio-variant-type">Маркетинг</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Проект Prime</h3>
+                            <p class="portfolio-variant-type">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf5.jpg" alt="коробки" width="370">
-                        <h3 class="portfolio-variant-name">Проект Boxes</h3>
-                        <p class="portfolio-variant-type">Приложение</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Проект Boxes</h3>
+                            <p class="portfolio-variant-type">Приложение</p>
+                        </div>
                     </a>
                 </li>
+
                 <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf6.jpg" alt="монитор" width="370">
-                        <h3 class="portfolio-variant-name">Inspiration has no Borders</h3>
-                        <p class="portfolio-variant-type">Веб-сайт</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Inspiration has no Borders</h3>
+                            <p class="portfolio-variant-type">Веб-сайт</p> 
+                        </div>
                     </a>
                 </li>
+
                 <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf7.jpg" alt="книга" width="370">
-                        <h3 class="portfolio-variant-name">Издание Limited Edition</h3>
-                        <p class="portfolio-variant-type">Дизайн</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Издание Limited Edition</h3>
+                            <p class="portfolio-variant-type">Дизайн</p>
+                        </div>     
                     </a>
                 </li>
+
                 <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf8.jpg" alt="бирка" width="370">
-                        <h3 class="portfolio-variant-name">Проект LAB</h3>
-                        <p class="portfolio-variant-type">Маркетинг</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Проект LAB</h3>
+                            <p class="portfolio-variant-type">Маркетинг</p>
+                        </div>    
                     </a>
                 </li>
+
                 <li class="portfolio-variants">
                     <a href="#">
                         <img src="images/portf9.jpg" alt="печатание на ноутбуке" width="370">
-                        <h3 class="portfolio-variant-name">Growing Business</h3>
-                        <p class="portfolio-variant-type">Приложение</p>
+                        <div class="variants-bottom">
+                            <h3 class="portfolio-variant-name">Growing Business</h3>
+                            <p class="portfolio-variant-type">Приложение</p>
+                        </div>
                     </a>
                 </li>
             </ul>
@@ -122,7 +150,7 @@
     </main>
 
     <!-- Подвал-->
-    <footer class="footer">
+    <footer class="footer container">
         <a href="index.html" class="main-page-link">Web<span class="main-page-link-logo">Studio</span></a>
         <address class="footer-address">г. Киев, пр-т Леси Украинки, 26
             <a href="mailto:info@devstudio.com" class="main-mail-footer">info@devstudio.com</a>
