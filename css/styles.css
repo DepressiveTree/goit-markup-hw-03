@@ -61,6 +61,10 @@ img {
     margin: 0 auto;
 }
 
+.padding-minus {
+    padding-bottom: 0;
+}
+
 /* шапка и елементы */
 .header {
     border-bottom: 1px solid #ECECEC;
